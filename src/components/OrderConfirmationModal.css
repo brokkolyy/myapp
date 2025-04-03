@@ -1,0 +1,47 @@
+.order-confirmation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   /* Полупрозрачный фон */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.order-confirmation-modal {
+background-color: #fff;
+border-radius: 16px;
+padding: 35.5px 66px;
+text-align: center;
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+width: 220px;  /* Фиксированная ширина */
+height: 220px; /* Фиксированная высота */
+max-width: none;
+}
+
+.order-confirmation-modal h2 {
+font-size: 16px;
+font-family: "Inder", sans-serif;
+margin-bottom: 26px;
+color: #000000;
+}
+
+.checkmark-container {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-color: #ffffff; 
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.checkmark-container img {
+  width: 129px; /* Настройте размер галочки */
+  height: 134px;
+  /* Цвет галочки будет зависеть от используемого изображения */
+}

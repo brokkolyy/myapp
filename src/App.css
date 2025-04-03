@@ -1,0 +1,120 @@
+.app-container {
+  background-color: #222;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inder', sans-serif;
+}
+
+.blurred {
+  filter: blur(5px); /* Добавьте размытие */
+}
+
+.menu-container {
+  background-color: #F3F3F3;
+  border-radius: 40px;
+  width: 428px;
+  height: 926px;
+  padding: 28px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  margin-right: 18px;
+}
+
+.table-button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 4px 6px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: left;
+  padding-right: 82px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-button {
+  width: 50px;
+  height: 50px;
+  background-color: #9DB2CE;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cart-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.menu-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 19px 16px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  margin-right: 8px;
+}
+
+.search-icon {
+  margin-right: 8px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16x;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+  margin-right: 8px;
+}
+
+.category-button {
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}

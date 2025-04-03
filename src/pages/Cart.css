@@ -1,0 +1,71 @@
+.cart-container {
+  background-color: #F3F3F3;
+  border-radius: 40px;
+  width: 428px;
+  height: 926px;
+  padding: 28px;
+  box-sizing: border-box;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 100px; /* Место для кнопки */
+  height: calc(926px - 100px); /* Уменьшаем высоту */
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 53.5px;
+}
+
+.back-button {
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 50px;
+  padding: 13px;
+  cursor: pointer;
+  
+}
+
+.back-icon {
+  width: 12px;
+  height: 12px;
+  
+}
+
+.table-info {
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 50px;
+  padding: 4px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.order-button {
+  width: calc(100% - 56px); /* 28px padding с каждой стороны */
+  padding: 14px;
+  font-size: 32px;
+  font-weight: normal;
+  color: white;
+  background: #364c84;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
